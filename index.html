@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Automotive</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.theme.default.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="./index.html">
+          <img class="lazy" id="head-logo" src="./images/logo.png" alt="" />
+        </a>
+        <button class="toggleNav" onclick="toggleNav(event)">&#x2630;</button>
+      </div>
+      <div class="cta">
+        <nav>
+          <ul>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a href="./service.html">Services</a>
+            </li>
+            <li>
+              <a href="./cars.html">Cars</a>
+            </li>
+            <li>
+              <a href="./project.html">Compare</a>
+            </li>
+            <li>
+              <a href="./blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact us</a>
+            </li>
+            <li>
+              <a href="./gallery.html">gallery</a>
+            </li>
+            <li>
+              <a href="#">Schedule a visit</a>
+              <!-- <ul class="dropdown">
+                <li>
+                  <a href="#">A</a>
+                </li>
+                <li>
+                  <a href="#">B</a>
+                </li>
+                <li>
+                  <a href="#">C</a>
+                </li>
+                <li>
+                  <a href="#">D</a>
+                </li>
+              </ul> -->
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="banner">
+      <div class="bannerImage">
+        <div class="mySlides fade">
+          <div
+            class="img"
+            style="background-image: url('./images/banner-one.jpg');"
+          >
+            <div class="imgOverlay center">
+              <div class="container">
+                <h2>Lorem ipsum dolor sit un sed un diasmet.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div
+            class="img"
+            style="background-image: url('./images/banner-two.jpg');"
+          >
+            <div class="imgOverlay center">
+              <div class="container">
+                <h2>Lorem ipsum dolor sit un sed un diasmet.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div
+            class="img"
+            style="background-image: url('./images/banner-three.gif');"
+          >
+            <div class="imgOverlay center">
+              <div class="container">
+                <h2>Lorem ipsum dolor sit un sed un diasmet.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center;" class="dotContainer">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+    <section id="feature">
+      <h2 class="secTitle center">Featured cars</h2>
+      <div class="container center">
+        <div class="card-container">
+          <div class="img-container">
+            <img class="lazy" src="images/download-5-copy.png" />
+          </div>
+          <div class="details-container center flex-column pd-10">
+            <div class="band center flex-row">
+              <p>16.5 Km/L</p>
+              <p>Detail 1</p>
+              <p>Starting at INR 10.6 L</p>
+            </div>
+            <div class="details">
+              <h3>Toyota Mode Name XJL</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod minim veniam, quis nostrud exercitation tempor
+              </p>
+              <h3>See more</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="img-container">
+            <img class="lazy" src="images/download-5-copy.png" />
+          </div>
+          <div class="details-container center flex-column pd-10">
+            <div class="band center flex-row">
+              <p>16.5 Km/L</p>
+              <p>Detail 1</p>
+              <p>Starting at INR 10.6 L</p>
+            </div>
+            <div class="details">
+              <h3>Toyota Mode Name XJL</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod minim veniam, quis nostrud exercitation tempor
+              </p>
+              <h3>See more</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="img-container">
+            <img class="lazy" src="images/download-5-copy.png" />
+          </div>
+          <div class="details-container center flex-column pd-10">
+            <div class="band center flex-row">
+              <p>16.5 Km/L</p>
+              <p>Detail 1</p>
+              <p>Starting at INR 10.6 L</p>
+            </div>
+            <div class="details">
+              <h3>Toyota Mode Name XJL</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod minim veniam, quis nostrud exercitation tempor
+              </p>
+              <h3>See more</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script>
+    // banner
+    var slideIndex = 0;
+    showSlides();
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 4000);
+    }
+  </script>
+  <script src="./js/common.js"></script>
+  <script src="./js/lazyloading.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
+  <!-- <script>
+  $(".projectList").owlCarousel({
+    margin: 10,
+    autoplay: true,
+    center: true,
+    items: 4,
+    loop: true,
+    dots: false,
+    lazyLoad: true,
+    nav: true,
+    navText: [
+      '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+      '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+    ],
+    responsive: {
+      0: {
+        items: 1
+      },
+      425: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      1200: {
+        items: 5
+      },
+      1400: {
+        items: 4
+      }
+    }
+  });
+  $("#client .logos").owlCarousel({
+    autoplay: true,
+    center: true,
+    items: 5,
+    loop: true,
+    dots: false,
+    lazyLoad: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      425: {
+        items: 2
+      },
+      768: {
+        items: 3
+      },
+      1200: {
+        items: 5
+      }
+    }
+  });
+
+  window.onscroll = function() {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 120 ||
+      document.documentElement.scrollTop > 120
+    ) {
+      document.getElementsByTagName("header")[0].style.position = "fixed";
+      document.getElementById("head-logo").style.width = "180px";
+
+    } else {
+      document.getElementsByTagName("header")[0].style.position = "relative";
+      document.getElementById("head-logo").style.width = "200px";
+    }
+  }
+</script> -->
+</html>
