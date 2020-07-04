@@ -105,6 +105,7 @@ header {
   justify-content: center;
   background-color: transparent;
   z-index: 99;
+  padding: 15px 10px;
 }
 
 header .logo {
@@ -167,6 +168,7 @@ header .cta nav ul {
 header .cta nav ul li {
   font-size: 14px;
   position: relative;
+  text-transform: uppercase;
 }
 
 header .cta nav ul li:hover {
@@ -239,12 +241,9 @@ header .cta nav ul li.callCta a {
   }
 }
 
-#banner {
-  top: -20vh;
-  z-index: -10;
-}
-
 #banner .bannerImage {
+  margin-top: -22vh;
+  z-index: -10;
   height: 100vh;
   background-origin: border-box;
   background-position: center center;
@@ -272,7 +271,7 @@ header .cta nav ul li.callCta a {
   font-size: 30px;
   width: 345px;
   margin-top: 3em;
-  margin-left: 2.7em;
+  margin-left: 1.5em;
 }
 
 @media (max-width: 425px) {
@@ -334,7 +333,7 @@ header .cta nav ul li.callCta a {
 }
 
 #feature h2 {
-  margin-top: -3em;
+  margin: 2em 0;
 }
 
 #feature .center {
